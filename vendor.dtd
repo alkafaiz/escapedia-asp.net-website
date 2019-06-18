@@ -1,0 +1,10 @@
+<!ELEMENT vendor (vendorID,uname,compName,address,city,country,email,phone,password)>
+<!ELEMENT vendorID (#PCDATA)>
+<!ELEMENT uname (#PCDATA)>
+<!ELEMENT compName (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT password (#PCDATA)>

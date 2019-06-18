@@ -1,0 +1,90 @@
+<NewDataSet>
+  <vendor>
+    <vendorID>123</vendorID>
+    <uname>asiatrip  </uname>
+    <compName>Asiania Trip</compName>
+    <address>bukit jalil</address>
+    <city>Kuala Lumpur</city>
+    <country>malaysia</country>
+    <email>asia@trip.com</email>
+    <phone>011200300nmnmnmnm</phone>
+    <password>123</password>
+  </vendor>
+  <vendor>
+    <vendorID>347</vendorID>
+    <uname>kalatrip  </uname>
+    <compName>Kala Trip</compName>
+    <address>jalan mawar</address>
+    <city>Gresik</city>
+    <country>Indonesia</country>
+    <email>kala@trip.com</email>
+    <phone>01229378754</phone>
+    <password>123</password>
+  </vendor>
+  <vendor>
+    <vendorID>867</vendorID>
+    <uname>jeparatrip</uname>
+    <compName>Jepara Trip</compName>
+    <address>jalan diponegoro</address>
+    <city>Jepara</city>
+    <country>Indonesia</country>
+    <email>jepara@trip.com</email>
+    <phone>01182748323</phone>
+    <password>123</password>
+  </vendor>
+  <vendor>
+    <vendorID>1810598</vendorID>
+    <uname>faiztrip</uname>
+    <compName>ABC</compName>
+    <address>kl</address>
+    <city>kl</city>
+    <country>malaysia</country>
+    <email>faiz@trip.com</email>
+    <phone>011284638</phone>
+    <password>123</password>
+  </vendor>
+  <vendor>
+    <vendorID>3783891</vendorID>
+    <uname>ngetripbareng</uname>
+    <compName>NgetripB@reng</compName>
+    <address>Sleman</address>
+    <city>Jogjakarta</city>
+    <country>Indonesia</country>
+    <email>ngetrip@aja.com</email>
+    <phone>081273847228</phone>
+    <password>12345</password>
+  </vendor>
+  <vendor>
+    <vendorID>3867573</vendorID>
+    <uname>jalantrip</uname>
+    <compName>Trip Jalan</compName>
+    <address>Sukolilo</address>
+    <city>Sidoarjo</city>
+    <country>Indonesia</country>
+    <email>jalan@trip.com</email>
+    <phone>0812837454</phone>
+    <password>123847</password>
+  </vendor>
+  <vendor>
+    <vendorID>5141472</vendorID>
+    <uname>APtrip</uname>
+    <compName>Asia Pacific Trip</compName>
+    <address>KL</address>
+    <city>Kuala Lumpur</city>
+    <country>Malaysia</country>
+    <email>asiapacific@trip.com</email>
+    <phone>011294745382</phone>
+    <password>123123</password>
+  </vendor>
+  <vendor>
+    <vendorID>6604813</vendorID>
+    <uname>mantaptrip</uname>
+    <compName>Mantap Jaya Travel Agent</compName>
+    <address>Surabaya</address>
+    <city>Surabaya</city>
+    <country>Indonesia</country>
+    <email>mantap@gmail.com</email>
+    <phone>08128463723</phone>
+    <password>1231</password>
+  </vendor>
+</NewDataSet>

@@ -1,0 +1,10 @@
+<!ELEMENT transaction (traID,vendorID,packageID,custID,date,month,year)>
+<!ELEMENT traID (#PCDATA)>
+<!ELEMENT vendorID (#PCDATA)>
+<!ELEMENT packageID (#PCDATA)>
+<!ELEMENT custID (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+
+

@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6D459ED5-D930-45DF-B603-1B2A30F6348A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>XML_ASSIGNMENT</RootNamespace>
+    <AssemblyName>XML ASSIGNMENT</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.0.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.0.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.0.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.0.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.0.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.0.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="aboutus.aspx" />
+    <Content Include="changepw.aspx" />
+    <Content Include="contactus.aspx" />
+    <Content Include="createpackage.aspx" />
+    <Content Include="dashboard.aspx" />
+    <Content Include="editpackage.aspx" />
+    <Content Include="editprofile.aspx" />
+    <Content Include="feedback.aspx" />
+    <Content Include="index.aspx" />
+    <Content Include="home.aspx" />
+    <Content Include="insight.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="package.xml" />
+    <Content Include="packages.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Site.Master" />
+    <Content Include="registration.aspx" />
+    <Content Include="Dashboard.Master" />
+    <Content Include="package.dtd" />
+    <None Include="Properties\PublishProfiles\faiz.pubxml" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="transaction.dtd" />
+    <Content Include="vendor.dtd" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="scripts\ai.0.22.9-build00167.js" />
+    <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="template\blog-masonry-2col.html" />
+    <Content Include="template\blog-masonry-sidebar-right.html" />
+    <Content Include="template\blog-masonry-sidebar.html" />
+    <Content Include="template\blog-masonry.html" />
+    <Content Include="template\blog-no-sidebar.html" />
+    <Content Include="template\blog-sidebar-right.html" />
+    <Content Include="template\blog-sidebar.html" />
+    <Content Include="template\blog-simple-feed.html" />
+    <Content Include="template\blog-single-disqus.html" />
+    <Content Include="template\blog-single-no-sidebar.html" />
+    <Content Include="template\blog-single-sidebar-right.html" />
+    <Content Include="template\blog-single-sidebar.html" />
+    <Content Include="template\elements-accordions.html" />
+    <Content Include="template\elements-alerts.html" />
+    <Content Include="template\elements-buttons.html" />
+    <Content Include="template\elements-countdown.html" />
+    <Content Include="template\elements-form-inputs.html" />
+    <Content Include="template\elements-galleries.html" />
+    <Content Include="template\elements-grid.html" />
+    <Content Include="template\elements-icon-boxes.html" />
+    <Content Include="template\elements-intros.html" />
+    <Content Include="template\elements-lists.html" />
+    <Content Include="template\elements-modals.html" />
+    <Content Include="template\elements-nav-dark.html" />
+    <Content Include="template\elements-nav-info.html" />
+    <Content Include="template\elements-nav-light.html" />
+    <Content Include="template\elements-nav-trans.html" />
+    <Content Include="template\elements-parallax.html" />
+    <Content Include="template\elements-pricing.html" />
+    <Content Include="template\elements-progress.html" />
+    <Content Include="template\elements-tabs.html" />
+    <Content Include="template\elements-textimage.html" />
+    <Content Include="template\elements-titles-center.html" />
+    <Content Include="template\elements-titles.html" />
+    <Content Include="template\elements-typography.html" />
+    <Content Include="template\elements-video-bg.html" />
+    <Content Include="template\elements-video-slider.html" />
+    <Content Include="template\elements-video.html" />
+    <Content Include="template\elements-widgets.html" />
+    <Content Include="template\home-adventure.html" />
+    <Content Include="template\home-agency.html" />
+    <Content Include="template\home-app-landing-2.html" />
+    <Content Include="template\home-app-landing.html" />
+    <Content Include="template\home-architecture - Copy.html" />
+    <Content Include="template\home-architecture.html" />
+    <Content Include="template\home-capital-firm.html" />
+    <Content Include="template\home-default-2.html" />
+    <Content Include="template\home-default-3.html" />
+    <Content Include="template\home-default-4.html" />
+    <Content Include="template\home-default-5.html" />
+    <Content Include="template\home-event.html" />
+    <Content Include="template\home-fashion.html" />
+    <Content Include="template\home-fitness.html" />
+    <Content Include="template\home-music.html" />
+    <Content Include="template\home-personal-portfolio.html" />
+    <Content Include="template\home-photography-2.html" />
+    <Content Include="template\home-photography.html" />
+    <Content Include="template\home-portfolio-1.html" />
+    <Content Include="template\home-property.html" />
+    <Content Include="template\home-restaurant.html" />
+    <Content Include="template\home-resume.html" />
+    <Content Include="template\home-winery.html" />
+    <Content Include="template\index.html" />
+    <Content Include="template\page-404.html" />
+    <Content Include="template\page-about-us-1.html" />
+    <Content Include="template\page-about-us-2.html" />
+    <Content Include="template\page-about-us-3.html" />
+    <Content Include="template\page-coming-soon.html" />
+    <Content Include="template\page-confirmation.html" />
+    <Content Include="template\page-contact-1.html" />
+    <Content Include="template\page-contact-2.html" />
+    <Content Include="template\page-contact-3.html" />
+    <Content Include="template\page-countdown-2.html" />
+    <Content Include="template\page-countdown.html" />
+    <Content Include="template\page-faq.html" />
+    <Content Include="template\page-login.html" />
+    <Content Include="template\page-register.html" />
+    <Content Include="template\page-services-1.html" />
+    <Content Include="template\page-services-2.html" />
+    <Content Include="template\page-services-3.html" />
+    <Content Include="template\portfolio-grid-2col.html" />
+    <Content Include="template\portfolio-grid-4col.html" />
+    <Content Include="template\portfolio-grid.html" />
+    <Content Include="template\portfolio-parallax.html" />
+    <Content Include="template\portfolio-single-1.html" />
+    <Content Include="template\portfolio-single-2.html" />
+    <Content Include="template\portfolio-single-3.html" />
+    <Content Include="template\portfolio-single-4.html" />
+    <Content Include="template\portfolio-single-5.html" />
+    <Content Include="template\portfolio-wide-2col.html" />
+    <Content Include="template\portfolio-wide-4col.html" />
+    <Content Include="template\portfolio-wide.html" />
+    <Content Include="template\shop-cart.html" />
+    <Content Include="template\shop-checkout.html" />
+    <Content Include="template\shop-fullwidth-2col.html" />
+    <Content Include="template\shop-fullwidth-4col.html" />
+    <Content Include="template\shop-fullwidth.html" />
+    <Content Include="template\shop-product-fullwidth.html" />
+    <Content Include="template\shop-product-sidebar-left.html" />
+    <Content Include="template\shop-product-sidebar.html" />
+    <Content Include="template\shop-sidebar-right.html" />
+    <Content Include="template\shop-sidebar.html" />
+    <Content Include="template\suitel-coming-soon.html" />
+    <Content Include="transaction.xml" />
+    <Content Include="vendor.xml" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aboutus.aspx.cs">
+      <DependentUpon>aboutus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aboutus.aspx.designer.cs">
+      <DependentUpon>aboutus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="changepw.aspx.cs">
+      <DependentUpon>changepw.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="changepw.aspx.designer.cs">
+      <DependentUpon>changepw.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contactus.aspx.cs">
+      <DependentUpon>contactus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contactus.aspx.designer.cs">
+      <DependentUpon>contactus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="createpackage.aspx.cs">
+      <DependentUpon>createpackage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="createpackage.aspx.designer.cs">
+      <DependentUpon>createpackage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dashboard.aspx.cs">
+      <DependentUpon>dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dashboard.aspx.designer.cs">
+      <DependentUpon>dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.Master.cs">
+      <DependentUpon>Dashboard.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Master.designer.cs">
+      <DependentUpon>Dashboard.Master</DependentUpon>
+    </Compile>
+    <Compile Include="editpackage.aspx.cs">
+      <DependentUpon>editpackage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editpackage.aspx.designer.cs">
+      <DependentUpon>editpackage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="editprofile.aspx.cs">
+      <DependentUpon>editprofile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editprofile.aspx.designer.cs">
+      <DependentUpon>editprofile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="feedback.aspx.cs">
+      <DependentUpon>feedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="feedback.aspx.designer.cs">
+      <DependentUpon>feedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="insight.aspx.cs">
+      <DependentUpon>insight.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="insight.aspx.designer.cs">
+      <DependentUpon>insight.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="packages.aspx.cs">
+      <DependentUpon>packages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="packages.aspx.designer.cs">
+      <DependentUpon>packages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="registration.aspx.cs">
+      <DependentUpon>registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="registration.aspx.designer.cs">
+      <DependentUpon>registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sysweb.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\" />
+    <Folder Include="fonts\" />
+    <Folder Include="Header-img\" />
+    <Folder Include="img360\" />
+    <Folder Include="img\" />
+    <Folder Include="js\" />
+    <Folder Include="mail\" />
+    <Folder Include="variant\" />
+    <Folder Include="video\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54575</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:54575/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

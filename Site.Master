@@ -1,0 +1,136 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="XML_ASSIGNMENT.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8"/>
+        <title>Escapedia - Easiest travel platform</title>
+        <meta name="viewport" content="width=device-width, initial-scale=0.9"/>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/ytplayer.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'/>
+        
+   
+</head>
+<body>
+    
+    
+    <div class="nav-container">
+            <a id="top"></a>
+            <nav class="absolute transparent">                
+                <div class="nav-bar">
+                    <div class="module left">
+                        <a href="index.html">
+                            <img class="logo logo-light" alt="Foundry" src="img/logo-light.png" />
+                            <img class="logo logo-dark" alt="Foundry" src="img/logo-dark.png" />
+                        </a>
+                    </div>
+                    <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
+                        <i class="ti-menu"></i>
+                    </div>
+                    <div class="module-group right">
+                        <div class="module left">
+                            <ul class="menu">
+                                <li class="">
+                                    <a href="home.aspx">
+                                        Home
+                                    </a>                                    
+                                </li>                                                                
+                                <li class="">
+                                    <a href="#testimonies">
+                                        Testimonies
+                                    </a>
+                                </li> 
+                                <li class="">
+                                    <a href="aboutus.aspx">
+                                        About Us
+                                    </a>
+                                </li> 
+                                <li class="">
+                                    <a href="contactus.aspx">
+                                        Contact Us
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="login.aspx">
+                                        Log In
+                                    </a>
+                                    
+                                </li> 
+                            </ul>                                                                                  
+                        </div>
+                        
+                    </div>
+                    <!--end of module group-->
+                </div>
+            </nav>
+        </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+    </asp:ContentPlaceHolder>
+    <footer class="footer-1 bg-dark">
+                <div class="container">
+                    <div class="row pb24">
+                        <div class="col-md-3 col-sm-6">
+                            <img alt="Logo" class="logo" src="img/logo-light.png" />
+                        </div>
+                        
+                    </div>
+                    <!--end of row-->
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <span class="sub">&copy; No Copyright - This site is prototype system of Escapedia for educational purpose.</span>
+                        </div>
+                        <div class="col-sm-6 text-right">
+                            <ul class="list-inline social-list">
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-twitter-alt"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-dribbble"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-vimeo-alt"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--end of container-->
+                <a class="btn btn-sm fade-half back-to-top inner-link" href="#top">Top</a>
+            </footer>
+    
+
+    
+    <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/flickr.js"></script>
+        <script src="js/flexslider.min.js"></script>
+        <script src="js/lightbox.min.js"></script>
+        <script src="js/masonry.min.js"></script>
+        <script src="js/twitterfetcher.min.js"></script>
+        <script src="js/spectragram.min.js"></script>
+        <script src="js/ytplayer.min.js"></script>
+        <script src="js/countdown.min.js"></script>
+        <script src="js/smooth-scroll.min.js"></script>
+        <script src="js/parallax.js"></script>
+        <script src="js/scripts.js"></script>
+</body>
+</html>

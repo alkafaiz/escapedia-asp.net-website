@@ -1,0 +1,9 @@
+<!ELEMENT package (packageID,title,destination,descr,duration,type,price,vendorID)>
+<!ELEMENT packageID (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT destination (#PCDATA)>
+<!ELEMENT descr (#PCDATA)>
+<!ELEMENT duration (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT vendorID (#PCDATA)>

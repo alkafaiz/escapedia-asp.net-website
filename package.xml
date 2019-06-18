@@ -1,0 +1,122 @@
+<NewDataSet>
+  <package>
+    <packageID>23f9055d-67c8-4f3d-910c-53134eb6b913</packageID>
+    <title>Backpacker Ulung</title>
+    <destination>Sleman, Jogja, Merapi, Semarang, Jepara</destination>
+    <descr>cheapest and most adventurous journey </descr>
+    <duration>10</duration>
+    <type>Group</type>
+    <price>1000</price>
+    <vendorID>3783891</vendorID>
+  </package>
+  <package>
+    <packageID>29182323-eb70-43d2-b0e6-737699bd018d</packageID>
+    <title>trip to KL</title>
+    <destination>KL</destination>
+    <descr>malaysia only</descr>
+    <duration>3</duration>
+    <type>Personal</type>
+    <price>1400</price>
+    <vendorID>123</vendorID>
+  </package>
+  <package>
+    <packageID>412312</packageID>
+    <title>Trip to Japan 3</title>
+    <destination>Tokyo, Osaka, Jember</destination>
+    <descr>going from indonesia together</descr>
+    <duration>4</duration>
+    <type>Personal</type>
+    <price>4500</price>
+    <vendorID>123</vendorID>
+  </package>
+  <package>
+    <packageID>466572cb-205e-4dc7-9782-6ecc82069d90</packageID>
+    <title>Trip to Ijen</title>
+    <destination>kawah ijen, banyuwangi</destination>
+    <descr>hiking and photo hunting</descr>
+    <duration>3</duration>
+    <type>Personal</type>
+    <price>750</price>
+    <vendorID>6604813</vendorID>
+  </package>
+  <package>
+    <packageID>6215ffa5-5594-4fa2-8c23-8731b547b217</packageID>
+    <title>abc</title>
+    <destination>kl</destination>
+    <descr>kl</descr>
+    <duration>1</duration>
+    <type>Personal</type>
+    <price>400</price>
+    <vendorID>1810598</vendorID>
+  </package>
+  <package>
+    <packageID>7361dddb-96b1-429a-aece-d8662653160d</packageID>
+    <title>Trip to Malang</title>
+    <destination>pantai triwarna, pantai bale kambang, BNS</destination>
+    <descr>two days full of local enjoyment</descr>
+    <duration>2</duration>
+    <type>Personal</type>
+    <price>500</price>
+    <vendorID>6604813</vendorID>
+  </package>
+  <package>
+    <packageID>8708def3-97e3-47e9-9d47-e8d2821393d2</packageID>
+    <title>Trip to Jogjakarta</title>
+    <destination>Jogjakarta, Solo</destination>
+    <descr>indonesian and javanese tourism</descr>
+    <duration>3</duration>
+    <type>Personal</type>
+    <price>1100</price>
+    <vendorID>123</vendorID>
+  </package>
+  <package>
+    <packageID>8e65dc46-5854-461a-a50c-f2f5f3810e8e</packageID>
+    <title>Trip to Bromo</title>
+    <destination>Mount Bromo, Probolinggo</destination>
+    <descr>hiking and camping assistance</descr>
+    <duration>2</duration>
+    <type>Personal</type>
+    <price>850</price>
+    <vendorID>6604813</vendorID>
+  </package>
+  <package>
+    <packageID>a8d7c11a-4ca6-4722-93d9-63a70a5c598f</packageID>
+    <title>def</title>
+    <destination>kl</destination>
+    <descr>kl</descr>
+    <duration>5</duration>
+    <type>Personal</type>
+    <price>2000</price>
+    <vendorID>1810598</vendorID>
+  </package>
+  <package>
+    <packageID>e1ee1fcd-4e55-47de-94ee-e6ae218e943d</packageID>
+    <title>Trip to Kuala Lumpur</title>
+    <destination>KLCC, Batu Cave, Dataran Merdeka, Central Market</destination>
+    <descr>going for city trip</descr>
+    <duration>2</duration>
+    <type>Group</type>
+    <price>1200</price>
+    <vendorID>5141472</vendorID>
+  </package>
+  <package>
+    <packageID>f17578bb-c792-4c9f-b7cf-a3832697732a</packageID>
+    <title>Surabaya City Trip</title>
+    <destination>monkasel, tugu pahlawan, taman bungkul, surabaya north quay</destination>
+    <descr>full day tour around surabaya city</descr>
+    <duration>1</duration>
+    <type>Personal</type>
+    <price>500</price>
+    <vendorID>6604813</vendorID>
+  </package>
+  <package>
+    <packageID>f4de0ba0-e94d-40a1-9e69-7650bd848157</packageID>
+    <title>Exploring Bali</title>
+    <destination>Canggu,  Monkey Forest, Sanur, Uluwatu </destination>
+    <descr>If you’ve got 10-12 days for Indonesia, you’re best sticking to one island. There is plenty to do. Many people spend their entire month-long visa on Bali and it’s never enough – the island is pretty big and there’s a ton of variety!</descr>
+    <duration>10</duration>
+    <type>Personal</type>
+    <price>1300</price>
+    <vendorID>3783891</vendorID>
+  </package>
+</NewDataSet>
