@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAARbzDK6nsSUyhwFBk1iyTZwAAAAACAAAAAAAQZgAAAAEAACAAAAATGZjdRiZ7txFEnQbbzO33dBkh2seG/1kXOZWfAq3kkgAAAAAOgAAAAAIAACAAAACCRpKFszzLuKuadt7w1p0OOnJoadUDKWBJDl5S06V3hSAAAABDVqMKujiTS353rI5IoKoOvntOF+kNa8mjQqy4WZr+B0AAAABTl2Y4ldxGBGSStJPmvbu6V8uZdtArnZTmHwFhYq5SohPWci4qVcvNknRoAgItm8lGR+vdwUTWYctMRac6jRXZ</EncryptedPassword>
+    <_PublishTargetUrl>ftp://ftpupload.net/htdocs</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="aboutus.aspx">
+      <publishTime>01/23/2019 02:26:07</publishTime>
+    </File>
+    <File Include="ApplicationInsights.config">
+      <publishTime>01/16/2019 23:40:05</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>01/16/2019 23:40:05</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>12/07/2015 19:04:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>03/10/2016 14:26:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>03/09/2016 12:00:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>03/09/2016 11:57:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/XML ASSIGNMENT.dll">
+      <publishTime>06/17/2019 00:24:03</publishTime>
+    </File>
+    <File Include="changepw.aspx">
+      <publishTime>01/23/2019 21:12:00</publishTime>
+    </File>
+    <File Include="contactus.aspx">
+      <publishTime>01/24/2019 03:43:03</publishTime>
+    </File>
+    <File Include="createpackage.aspx">
+      <publishTime>01/23/2019 01:34:17</publishTime>
+    </File>
+    <File Include="dashboard.aspx">
+      <publishTime>01/23/2019 03:28:03</publishTime>
+    </File>
+    <File Include="Dashboard.Master">
+      <publishTime>06/17/2019 00:01:22</publishTime>
+    </File>
+    <File Include="editpackage.aspx">
+      <publishTime>01/23/2019 07:24:58</publishTime>
+    </File>
+    <File Include="editprofile.aspx">
+      <publishTime>01/22/2019 15:28:05</publishTime>
+    </File>
+    <File Include="feedback.aspx">
+      <publishTime>01/24/2019 05:38:43</publishTime>
+    </File>
+    <File Include="home.aspx">
+      <publishTime>01/24/2019 06:11:21</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>01/18/2019 17:00:21</publishTime>
+    </File>
+    <File Include="insight.aspx">
+      <publishTime>01/23/2019 07:27:28</publishTime>
+    </File>
+    <File Include="login.aspx">
+      <publishTime>01/22/2019 09:10:01</publishTime>
+    </File>
+    <File Include="package.dtd">
+      <publishTime>01/23/2019 22:01:21</publishTime>
+    </File>
+    <File Include="package.xml">
+      <publishTime>06/16/2019 23:44:46</publishTime>
+    </File>
+    <File Include="packages.aspx">
+      <publishTime>01/22/2019 14:58:23</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>01/16/2019 23:40:06</publishTime>
+    </File>
+    <File Include="registration.aspx">
+      <publishTime>01/22/2019 15:30:42</publishTime>
+    </File>
+    <File Include="scripts/ai.0.22.9-build00167.js">
+      <publishTime>01/16/2019 23:40:06</publishTime>
+    </File>
+    <File Include="scripts/ai.0.22.9-build00167.min.js">
+      <publishTime>01/16/2019 23:40:05</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>06/16/2019 23:59:12</publishTime>
+    </File>
+    <File Include="template/blog-masonry-2col.html">
+      <publishTime>01/18/2019 04:10:30</publishTime>
+    </File>
+    <File Include="template/blog-masonry-sidebar-right.html">
+      <publishTime>01/18/2019 04:10:30</publishTime>
+    </File>
+    <File Include="template/blog-masonry-sidebar.html">
+      <publishTime>01/18/2019 04:10:30</publishTime>
+    </File>
+    <File Include="template/blog-masonry.html">
+      <publishTime>01/18/2019 04:10:30</publishTime>
+    </File>
+    <File Include="template/blog-no-sidebar.html">
+      <publishTime>01/18/2019 04:10:30</publishTime>
+    </File>
+    <File Include="template/blog-sidebar-right.html">
+      <publishTime>01/18/2019 04:10:30</publishTime>
+    </File>
+    <File Include="template/blog-sidebar.html">
+      <publishTime>01/18/2019 04:10:30</publishTime>
+    </File>
+    <File Include="template/blog-simple-feed.html">
+      <publishTime>01/18/2019 04:10:30</publishTime>
+    </File>
+    <File Include="template/blog-single-disqus.html">
+      <publishTime>01/18/2019 04:10:30</publishTime>
+    </File>
+    <File Include="template/blog-single-no-sidebar.html">
+      <publishTime>01/18/2019 04:10:30</publishTime>
+    </File>
+    <File Include="template/blog-single-sidebar-right.html">
+      <publishTime>01/18/2019 04:10:30</publishTime>
+    </File>
+    <File Include="template/blog-single-sidebar.html">
+      <publishTime>01/18/2019 04:10:30</publishTime>
+    </File>
+    <File Include="template/elements-accordions.html">
+      <publishTime>01/20/2019 23:30:18</publishTime>
+    </File>
+    <File Include="template/elements-alerts.html">
+      <publishTime>01/18/2019 04:10:30</publishTime>
+    </File>
+    <File Include="template/elements-buttons.html">
+      <publishTime>01/18/2019 04:10:30</publishTime>
+    </File>
+    <File Include="template/elements-countdown.html">
+      <publishTime>01/18/2019 04:10:30</publishTime>
+    </File>
+    <File Include="template/elements-form-inputs.html">
+      <publishTime>01/18/2019 04:10:30</publishTime>
+    </File>
+    <File Include="template/elements-galleries.html">
+      <publishTime>01/18/2019 04:10:30</publishTime>
+    </File>
+    <File Include="template/elements-grid.html">
+      <publishTime>01/18/2019 04:10:30</publishTime>
+    </File>
+    <File Include="template/elements-icon-boxes.html">
+      <publishTime>01/18/2019 04:10:30</publishTime>
+    </File>
+    <File Include="template/elements-intros.html">
+      <publishTime>01/18/2019 04:10:30</publishTime>
+    </File>
+    <File Include="template/elements-lists.html">
+      <publishTime>01/18/2019 04:10:30</publishTime>
+    </File>
+    <File Include="template/elements-modals.html">
+      <publishTime>01/18/2019 04:10:31</publishTime>
+    </File>
+    <File Include="template/elements-nav-dark.html">
+      <publishTime>01/18/2019 04:10:31</publishTime>
+    </File>
+    <File Include="template/elements-nav-info.html">
+      <publishTime>01/18/2019 04:10:31</publishTime>
+    </File>
+    <File Include="template/elements-nav-light.html">
+      <publishTime>01/18/2019 04:10:31</publishTime>
+    </File>
+    <File Include="template/elements-nav-trans.html">
+      <publishTime>01/18/2019 04:10:31</publishTime>
+    </File>
+    <File Include="template/elements-parallax.html">
+      <publishTime>01/18/2019 04:10:31</publishTime>
+    </File>
+    <File Include="template/elements-pricing.html">
+      <publishTime>01/18/2019 04:10:31</publishTime>
+    </File>
+    <File Include="template/elements-progress.html">
+      <publishTime>01/18/2019 04:10:31</publishTime>
+    </File>
+    <File Include="template/elements-tabs.html">
+      <publishTime>01/20/2019 22:06:15</publishTime>
+    </File>
+    <File Include="template/elements-textimage.html">
+      <publishTime>01/18/2019 04:10:31</publishTime>
+    </File>
+    <File Include="template/elements-titles-center.html">
+      <publishTime>01/18/2019 04:10:31</publishTime>
+    </File>
+    <File Include="template/elements-titles.html">
+      <publishTime>01/18/2019 04:10:31</publishTime>
+    </File>
+    <File Include="template/elements-typography.html">
+      <publishTime>01/18/2019 04:10:31</publishTime>
+    </File>
+    <File Include="template/elements-video-bg.html">
+      <publishTime>01/18/2019 04:10:31</publishTime>
+    </File>
+    <File Include="template/elements-video-slider.html">
+      <publishTime>01/18/2019 04:10:31</publishTime>
+    </File>
+    <File Include="template/elements-video.html">
+      <publishTime>01/18/2019 04:10:31</publishTime>
+    </File>
+    <File Include="template/elements-widgets.html">
+      <publishTime>01/18/2019 04:10:31</publishTime>
+    </File>
+    <File Include="template/home-adventure.html">
+      <publishTime>01/18/2019 04:10:31</publishTime>
+    </File>
+    <File Include="template/home-agency.html">
+      <publishTime>01/18/2019 04:10:31</publishTime>
+    </File>
+    <File Include="template/home-app-landing-2.html">
+      <publishTime>01/18/2019 04:10:31</publishTime>
+    </File>
+    <File Include="template/home-app-landing.html">
+      <publishTime>01/18/2019 04:10:31</publishTime>
+    </File>
+    <File Include="template/home-architecture - Copy.html">
+      <publishTime>01/18/2019 04:10:31</publishTime>
+    </File>
+    <File Include="template/home-architecture.html">
+      <publishTime>01/18/2019 04:10:31</publishTime>
+    </File>
+    <File Include="template/home-capital-firm.html">
+      <publishTime>01/18/2019 04:10:31</publishTime>
+    </File>
+    <File Include="template/home-default-2.html">
+      <publishTime>01/18/2019 04:10:31</publishTime>
+    </File>
+    <File Include="template/home-default-3.html">
+      <publishTime>01/18/2019 04:10:31</publishTime>
+    </File>
+    <File Include="template/home-default-4.html">
+      <publishTime>01/18/2019 04:10:31</publishTime>
+    </File>
+    <File Include="template/home-default-5.html">
+      <publishTime>01/18/2019 04:10:31</publishTime>
+    </File>
+    <File Include="template/home-event.html">
+      <publishTime>01/18/2019 04:10:31</publishTime>
+    </File>
+    <File Include="template/home-fashion.html">
+      <publishTime>01/18/2019 04:10:32</publishTime>
+    </File>
+    <File Include="template/home-fitness.html">
+      <publishTime>01/18/2019 04:10:32</publishTime>
+    </File>
+    <File Include="template/home-music.html">
+      <publishTime>01/18/2019 04:10:32</publishTime>
+    </File>
+    <File Include="template/home-personal-portfolio.html">
+      <publishTime>01/18/2019 04:10:32</publishTime>
+    </File>
+    <File Include="template/home-photography-2.html">
+      <publishTime>01/18/2019 04:10:32</publishTime>
+    </File>
+    <File Include="template/home-photography.html">
+      <publishTime>01/18/2019 04:10:32</publishTime>
+    </File>
+    <File Include="template/home-portfolio-1.html">
+      <publishTime>01/18/2019 04:10:32</publishTime>
+    </File>
+    <File Include="template/home-property.html">
+      <publishTime>01/18/2019 04:10:32</publishTime>
+    </File>
+    <File Include="template/home-restaurant.html">
+      <publishTime>01/18/2019 04:10:32</publishTime>
+    </File>
+    <File Include="template/home-resume.html">
+      <publishTime>01/18/2019 04:10:32</publishTime>
+    </File>
+    <File Include="template/home-winery.html">
+      <publishTime>01/18/2019 04:10:32</publishTime>
+    </File>
+    <File Include="template/index.html">
+      <publishTime>01/18/2019 04:10:32</publishTime>
+    </File>
+    <File Include="template/page-404.html">
+      <publishTime>01/18/2019 04:10:32</publishTime>
+    </File>
+    <File Include="template/page-about-us-1.html">
+      <publishTime>01/23/2019 02:19:16</publishTime>
+    </File>
+    <File Include="template/page-about-us-2.html">
+      <publishTime>01/18/2019 04:10:32</publishTime>
+    </File>
+    <File Include="template/page-about-us-3.html">
+      <publishTime>01/18/2019 04:10:32</publishTime>
+    </File>
+    <File Include="template/page-coming-soon.html">
+      <publishTime>01/18/2019 04:10:32</publishTime>
+    </File>
+    <File Include="template/page-confirmation.html">
+      <publishTime>01/18/2019 04:10:32</publishTime>
+    </File>
+    <File Include="template/page-contact-1.html">
+      <publishTime>01/18/2019 04:10:32</publishTime>
+    </File>
+    <File Include="template/page-contact-2.html">
+      <publishTime>01/18/2019 04:10:32</publishTime>
+    </File>
+    <File Include="template/page-contact-3.html">
+      <publishTime>01/18/2019 04:10:32</publishTime>
+    </File>
+    <File Include="template/page-countdown-2.html">
+      <publishTime>01/18/2019 04:10:32</publishTime>
+    </File>
+    <File Include="template/page-countdown.html">
+      <publishTime>01/18/2019 04:10:32</publishTime>
+    </File>
+    <File Include="template/page-faq.html">
+      <publishTime>01/18/2019 04:10:32</publishTime>
+    </File>
+    <File Include="template/page-login.html">
+      <publishTime>01/18/2019 04:10:33</publishTime>
+    </File>
+    <File Include="template/page-register.html">
+      <publishTime>01/18/2019 17:51:41</publishTime>
+    </File>
+    <File Include="template/page-services-1.html">
+      <publishTime>01/18/2019 04:10:33</publishTime>
+    </File>
+    <File Include="template/page-services-2.html">
+      <publishTime>01/18/2019 04:10:33</publishTime>
+    </File>
+    <File Include="template/page-services-3.html">
+      <publishTime>01/18/2019 04:10:33</publishTime>
+    </File>
+    <File Include="template/portfolio-grid-2col.html">
+      <publishTime>01/18/2019 04:10:33</publishTime>
+    </File>
+    <File Include="template/portfolio-grid-4col.html">
+      <publishTime>01/18/2019 04:10:33</publishTime>
+    </File>
+    <File Include="template/portfolio-grid.html">
+      <publishTime>01/18/2019 04:10:33</publishTime>
+    </File>
+    <File Include="template/portfolio-parallax.html">
+      <publishTime>01/18/2019 04:10:33</publishTime>
+    </File>
+    <File Include="template/portfolio-single-1.html">
+      <publishTime>01/18/2019 04:10:33</publishTime>
+    </File>
+    <File Include="template/portfolio-single-2.html">
+      <publishTime>01/18/2019 04:10:33</publishTime>
+    </File>
+    <File Include="template/portfolio-single-3.html">
+      <publishTime>01/18/2019 04:10:33</publishTime>
+    </File>
+    <File Include="template/portfolio-single-4.html">
+      <publishTime>01/18/2019 04:10:33</publishTime>
+    </File>
+    <File Include="template/portfolio-single-5.html">
+      <publishTime>01/18/2019 04:10:33</publishTime>
+    </File>
+    <File Include="template/portfolio-wide-2col.html">
+      <publishTime>01/18/2019 04:10:33</publishTime>
+    </File>
+    <File Include="template/portfolio-wide-4col.html">
+      <publishTime>01/18/2019 04:10:33</publishTime>
+    </File>
+    <File Include="template/portfolio-wide.html">
+      <publishTime>01/18/2019 04:10:33</publishTime>
+    </File>
+    <File Include="template/shop-cart.html">
+      <publishTime>01/18/2019 04:10:33</publishTime>
+    </File>
+    <File Include="template/shop-checkout.html">
+      <publishTime>01/18/2019 04:10:33</publishTime>
+    </File>
+    <File Include="template/shop-fullwidth-2col.html">
+      <publishTime>01/18/2019 04:10:33</publishTime>
+    </File>
+    <File Include="template/shop-fullwidth-4col.html">
+      <publishTime>01/18/2019 04:10:33</publishTime>
+    </File>
+    <File Include="template/shop-fullwidth.html">
+      <publishTime>01/18/2019 04:10:33</publishTime>
+    </File>
+    <File Include="template/shop-product-fullwidth.html">
+      <publishTime>01/18/2019 04:10:33</publishTime>
+    </File>
+    <File Include="template/shop-product-sidebar-left.html">
+      <publishTime>01/18/2019 04:10:33</publishTime>
+    </File>
+    <File Include="template/shop-product-sidebar.html">
+      <publishTime>01/18/2019 04:10:33</publishTime>
+    </File>
+    <File Include="template/shop-sidebar-right.html">
+      <publishTime>01/18/2019 04:10:33</publishTime>
+    </File>
+    <File Include="template/shop-sidebar.html">
+      <publishTime>01/20/2019 23:47:20</publishTime>
+    </File>
+    <File Include="template/suitel-coming-soon.html">
+      <publishTime>01/18/2019 04:10:30</publishTime>
+    </File>
+    <File Include="transaction.dtd">
+      <publishTime>01/23/2019 23:18:25</publishTime>
+    </File>
+    <File Include="transaction.xml">
+      <publishTime>06/16/2019 23:45:08</publishTime>
+    </File>
+    <File Include="vendor.dtd">
+      <publishTime>01/23/2019 22:07:50</publishTime>
+    </File>
+    <File Include="vendor.xml">
+      <publishTime>06/16/2019 23:44:00</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/17/2019 00:34:36</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
